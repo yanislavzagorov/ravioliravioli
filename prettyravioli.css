@@ -1,6 +1,5 @@
-.body {
-    background-image: url(https://media.istockphoto.com/vectors/handdrawn-pasta-doodles-seamless-pattern-vector-illustration-vector-id538036570); 
-    background-repeat: repeat; 
+body {
+    background-color: beige;
     font-family: 'Pacifico', cursive;
 }      
         
