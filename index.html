@@ -7,12 +7,28 @@
     <link rel="shortcut icon" href="http://www.iconj.com/ico/0/h/0h8gvx3skj.ico" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="prettyravioli.css">
+    
+    <script>
+        function showDiv() {
+           document.getElementById('hidden').style.display = "block";
+           document.getElementById('plate').style.display = "none";
+           document.getElementById('textcontainer2').style.display = "block";
+           document.getElementById('textcontainer1').style.display = "none";
+        }  
+    </script>
 </head>
 
 <body>
-    <div id="plate"><img src="https://pastamontegrappa.com/wp-content/uploads/2016/03/raviolo.png"></img></div>
-    <div class="maincontainer">
-        <h1></h1>
+    <div id="plate"><img src="https://pastamontegrappa.com/wp-content/uploads/2016/03/raviolo.png" onclick="showDiv()"></img></div>
+    
+    <div id="hidden"><img src="https://i.ytimg.com/vi/YBhEvNsbh9Y/maxresdefault.jpg"></img></div>
+    
+    <div id="textcontainer1">
+        <h1>Ravioli Ravioli</h1>
+    </div>
+    
+    <div id="textcontainer2">
+        <h1>There is no escapioli</h1>
     </div>
 </body>
 
